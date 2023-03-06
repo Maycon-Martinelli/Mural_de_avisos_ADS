@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Mural de Avisos</title>
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@48,400,0,0"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lora&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="style.css" />
+  
+</head>
+  
+<body>
+   
+    <saide class="sidebar">
+      
+        <header class="sidebar-header">
+        
+            <img class="logo-img" src="img/topo-removebg-preview.png" alt="topo" />
+        
+            <h1 id="escrita"></h1>
+      
+        </header>
+
+      <nav>
+        
+        <button>
+          
+            <span>
+            
+                <a href="#">
+              
+                    <i class="tarefas">
+                    <img src="img/planejamento-de-tarefas.png" width="30px" height="30px" alt=""/></i>
+              <span>TAREFAS E TRABALHOS</span>
+              
+            </a>
+          </span>
+        </button>
+
+        <button>
+          <span>
+            <a href="#">
+              <i class="tarefas"
+                ><img
+                  src="img/leitura-de-prova.png"
+                  width="30px"
+                  height="30px"
+                  alt=""
+              /></i>
+              <span>PROVA</span>
+            </a>
+          </span>
+        </button>
+
+        <button>
+          <span>
+            <a href="img/aulas.pdf">
+              <i class="tarefas"
+                ><img src="img/classroom.png" width="30px" height="30px" alt=""
+              /></i>
+              <span>AULAS</span>
+            </a>
+          </span>
+        </button>
+
+        <button>
+          <span>
+            <a href="#">
+              <i class="tarefas"
+                ><img
+                  src="img/calendario.png"
+                  width="30px"
+                  height="30px"
+                  alt=""
+              /></i>
+              <span>EVENTOS/ CALENDARIO</span>
+            </a>
+          </span>
+        </button>
+      </nav>
+    </saide>
+
+    <!-- Menu mobile-->
+
+    <button class="button-mobile" onclick="toggleMenu()">
+      <i class="material-symbols-outlined"> menu </i>
+      <span>MENU</span>
+    </button>
+    <nav class="menu-mobile" id="menu-mobile">
+      <button class="button-close" onclick="toggleMenu()">
+        <span>
+          <i class="material-symbols-outlined"> close </i>
+        </span>
+      </button>
+
+      <button>
+        <span>
+          <a href="#">
+            <i class="material-symbols-outlined"
+              ><img
+                src="img/planejamento-de-tarefas.png"
+                width="30px"
+                height="30px"
+                alt=""
+            /></i>
+            <span class="mobile-text">TAREFAS E TRABALHOS</span>
+          </a>
+        </span>
+      </button>
+
+      <button>
+        <span>
+          <a href="#">
+            <i class="material-symbols-outlined"
+              ><img
+                src="img/leitura-de-prova.png"
+                width="30px"
+                height="30px"
+                alt=""
+            /></i>
+            <span class="mobile-text">PROVA</span>
+          </a>
+        </span>
+      </button>
+
+      <button>
+        <span>
+          <a href="img/aulas.jpg">
+            <i class="material-symbols-outlined"
+              ><img src="img/classroom.png" width="30px" height="30px" alt=""
+            /></i>
+            <span class="mobile-text">AULAS</span>
+          </a>
+        </span>
+      </button>
+
+      <button>
+        <span>
+          <a href="#">
+            <i class="material-symbols-outlined"
+              ><img src="img/calendario.png" width="30px" height="30px" alt=""
+            /></i>
+            <span class="mobile-text">EVENTOS/ CALENDARIO</span>
+          </a>
+        </span>
+      </button>
+    </nav>
+
+    <main class="main">
+      <h1 >ADS 22/2</h1>
+      <h2>Ultimos Avisos</h2>
+    </main>
+
+    <nav class="atividades">
+        <a id="escrita" href="https://classroom.google.com/u/0/c/NTQyODg2Mjc4MDky/m/NTQzMTYxMjY4MDg1/details">
+            <p>Lista de Exercícios - Prof Vinicius</p>
+        A lista de exercícios deve ser enviada até o dia da avaliação do primeiro bimestre.
+    </a>
+  </nav>
+
+
+
+    <script src="js.js"></script>
+  </body>
+</html>
